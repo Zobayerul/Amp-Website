@@ -1,0 +1,331 @@
+@media (max-width:1400px) {
+    .mid-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }    
+@media (max-width:1200px){
+
+    .p-contant ul li {
+        margin: 30px 0;
+        font-size: 16px;
+    }
+}
+}
+@media (max-width:1050px) {
+    .logo span {
+        font-size: 19px;
+    }
+    .primary-menu ul li a {
+        padding: 0 12px;
+        font-size: 17px;
+    }
+   
+}
+
+/* Mobile Buttom Css not responsive */
+.primary-menu span{
+    display:none;
+}
+@media (max-width:992px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo span {
+        font-size: 30px;
+        position: relative;
+        top: -23px;
+    }
+    .logo img {
+        height: 60px;
+        float: inherit;
+    }
+    .header-menu {
+        width: 100%;
+        text-align: left;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        top: 68px;
+        right: 9px;
+    }
+    .banner-section {
+        padding: 145px 0;
+    }
+    
+    /* Button mobile */
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary-menu span {
+        font-size: 32px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+    }
+    .tittle h1 {
+        font-size: 42px;
+        margin-bottom: 13px;
+    }
+    .service-box {
+        width: 48%;
+    }
+    .service-box:nth-child(3n+3) {
+      
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .pricing-table-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .team-section .tittle h2 {
+        font-size: 36px;
+    }
+    .member {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 26px;
+    }
+    .tittle.news-latter-tittle h2 {
+        margin-top: 26px;
+        font-size: 42px;
+    }
+    .tittle.news-latter-tittle {
+        padding: 60px;
+    }
+    .blog-text {
+        width: 100%;
+    }
+    .blog-text h4 {
+        font-size: 28px;
+    }
+    .blog-text p {
+        
+        font-size: 17px;
+     
+        line-height: 37px;
+    }
+    .tittle.news-latter-tittle p {
+        font-size: 33px;
+      
+    }
+    .tittle.news-latter-tittle h2 {
+        margin-top: 26px;
+    }
+    .testimonial-item {
+        margin-top: 0px;
+    }
+    .t-item {
+        width: 48%;
+        margin-right: 1%;
+    }
+    .t-img span {
+        display: block;
+    }
+}
+@media (max-width:768px) {
+    .banner-content h2 {
+        font-size: 41px;
+        margin: 18px 0;
+    }
+    .default-btn {
+        padding: 15px 22px;
+        font-size: 15px;
+    }
+    .banner-section {
+        padding: 130px 0;
+    }
+    .con-right h3 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 13px;
+    }
+    .con-right p {
+        font-size: 18px;
+    }
+    .tittle h1 {
+        font-size: 31px;
+        margin-bottom: 13px;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .service-box:nth-child(3n+3) {
+      
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right:20px;
+    }
+    .service-box:nth-child(1n+1){
+        margin-right:20px;
+    }
+    
+    .tittle h2 {
+        font-size: 44px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .tittle p {
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .team-section .tittle h2 {
+        font-size: 27px;
+    }
+    .tittle.news-latter-tittle h2 {
+        margin-top: 26px;
+        font-weight: 500;
+        font-size: 34px;
+    }
+    .tittle.news-latter-tittle p {
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .default-input {
+        width: 100%;
+    }
+    .blog-top-left h2 {
+        font-size: 30px;
+    }
+    .blog-top-right h5 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .blog-text p {
+        color: #767676;
+        margin-left: -20px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 14px;
+    }
+    .blog-down-left {
+        width: 100%;
+       
+        margin-bottom: 18px;
+    }
+    .blog-img {
+        width: 100%;
+    }
+    .blog-down-right {
+        width: 100%;
+    }
+    .tittle.news-latter-tittle h2 {
+        font-size: 24px;
+    }
+    .tittle.news-latter-tittle p {
+        font-size: 19px;
+   
+    }
+    .t-item {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .content-left {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+    }
+    .submit-btn {
+        font-size: 31px;
+        padding: 20px 57px;
+        display: block;
+        margin-top: 0px;
+   }
+   .footer p {
+	font-size: 20px;
+	
+   }
+  
+}
+
+@media (max-width:576px){
+    .default-btn {
+        display: block;
+        margin-bottom: 17px;
+    }
+    .banner-content h2 {
+        font-size: 33px;
+        margin: 13px 0;
+    }
+    .banner-section {
+        padding: 64px 0;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .con-right {
+        width: 100%;
+    }
+    .tittle h1 {
+        font-size: 23px;
+        margin-bottom: 6px;
+    }
+    .tittle p {
+        font-weight: 300;
+        font-size: 19px;
+    }
+    .tittle h2 {
+        font-size: 37px;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+    .tittle p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .team-section .tittle h2 {
+        font-size: 21px;
+    }
+    .member {
+        width: 100%;
+        margin-right: 2%;
+        margin-bottom: 26px;
+    }
+    .tittle.news-latter-tittle h2 {
+        margin-top: 16px;
+        font-weight: 500;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .default-input {
+      
+        padding: 11px 19px;
+        font-size: 17px;
+      
+    }
+    .submit-btn {
+        font-size: 19px;
+        
+        padding: 20px 46px;
+       
+        margin-left: 0px;
+       
+        margin-top: 16px;
+    }
+    .blog-top-left {
+        width: 100%;
+        text-align: center;
+    }
+    .blog-top-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+}
